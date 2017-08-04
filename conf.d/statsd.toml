@@ -1,0 +1,9 @@
+[template]
+src = "statsd.config.tmpl"
+dest = "/app/statsd.config"
+keys = [
+    "/influxdb_host",
+    "/influxdb_username",
+    "/influxdb_password",
+    "/influxdb_database",
+]
